@@ -216,9 +216,9 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   min-width: 300px;
 }
-#hero h1 {
+#hero h2 {
   margin: 0 0 10px 0;
-  font-size: 64px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -365,7 +365,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -391,6 +391,39 @@ section {
   height: 10px;
 }
 .skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #149ddd;
+}
+
+/*--------------------------------------------------------------
+# Software & Tools
+--------------------------------------------------------------*/
+.tools .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.tools .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+}
+.tools .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.tools .progress-bar-wrap {
+  background: #dce8f8;
+  height: 10px;
+}
+.tools .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
